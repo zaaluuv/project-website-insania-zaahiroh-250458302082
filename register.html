@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Insania Sinergia</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-[#97f0eb]">
+    <div class="flex w-full max-w-5xl min-h-screen">
+
+    <!-- Bagian Kiri: Gambar -->
+        <div class="w-1/2 md:block">
+            <img src="media/7cb95c10-5497-4021-8cb8-1b5bd1f151fe.jpg" alt="Gambar Background" class="object-cover h-full w-full" />
+        </div>
+
+    <!-- Bagian Kanan -->
+        <div class="w-full md:w-1/2 flex flex-col justify-center px-6 py-12">
+        
+        <!-- Logo -->
+        <img src="media/guadgavaddaHVHADUV.png" alt="Insania Sinergia" class="h-10 w-25 mb-4" />
+
+        <!-- Judul -->
+        <h2 class="text-2xl font-bold mb-1 text-left">NEW ACCOUNT</h2>
+        <p class="text-left mb-6">Hi, Ayo bergabung bersama kami menjadi mitra Insania Sinergia</p>
+
+        <!-- FORM: Container Putih -->
+            <div class="bg-white rounded-2xl shadow-md p-6 w-full max-w-md">
+                <form action="#" method="POST" class="space-y-4">
+                    <!-- Nama -->
+                    <div>
+                        <label for="nama" class="block text-sm font-medium text-gray-700 mb-1">Nama</label>
+                        <input type="text" id="nama" name="nama" class="w-full px-4 py-2 rounded-3xl bg-gray-100" required />
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Alamat Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-3xl bg-gray-100" required />
+                    </div>
+
+                    <!-- Password -->
+                    <div>
+                        <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                        <input type="password" id="password" name="password" class="w-full px-4 py-2 rounded-3xl bg-gray-100" required />
+                    </div>
+
+                    <!-- Konfirmasi Password -->
+                    <div>
+                        <label for="confirmPassword" class="block text-sm font-medium text-gray-700 mb-1">Konfirmasi Password</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" class="w-full px-4 py-2 rounded-3xl bg-gray-100" required />
+                    </div>
+
+                    <!-- Tombol Buat Akun -->
+                    <button type="submit" class="w-full bg-[#047a82] text-white py-2 rounded-3xl font-bold">Buat Akun</button>
+
+                    <!-- Google Button -->
+                    <button type="button" class="w-full border border-teal-600 py-2 rounded-3xl flex items-center justify-center">
+                        <img src="media/google.png" alt="Google" class="w-5 h-5 mr-2"> Daftar dengan Google
+                    </button>
+                </form>
+
+                <p class="text-sm mt-4">
+                Sudah punya akun? <a href="login.html" class="text-blue-500 font-semibold">Login</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
